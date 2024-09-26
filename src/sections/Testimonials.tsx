@@ -59,7 +59,7 @@ export const TestimonialsSection = () => {
                  key = {testimonial.name} 
                  className="max-w-xs md:max-w-md p-6 md:p-8 hover:-rotate-3 transition duration-300">
                  <div className="flex gap-4 items-center">
-                 <div className="size-14 bg-gray-700 inline-flex items-center justify-center rounded-full flex-shrink-0 ">
+                 <div className="size-14 bg-gray-900 inline-flex items-center justify-center rounded-full flex-shrink-0 ">
                  <Image 
                    src ={testimonial.avatar} 
                    alt={testimonial.name}
